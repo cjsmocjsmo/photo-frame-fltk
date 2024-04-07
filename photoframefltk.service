@@ -1,0 +1,14 @@
+[Unit]
+Description=PfFltk
+After=graphical.target
+Requires=graphical.target
+
+[Service]
+Type=simple
+User=pi
+Restart=always
+Environment="DISPLAY=:0"  # Set the display variable
+ExecStart=/usr/bin/nohup /usr/bin/python3 /usr/share/photo-frame-fltk/photo-frame-fltk/pf-fltk.py
+
+[Install]
+WantedBy=multi-user.target
