@@ -12,7 +12,7 @@ def calculate_total_size(pics):
 
 def get_pics():
     pics = []
-    pic_path = "/home/pi/Pictures/MasterPicsResize_SPLIT/"
+    pic_path = "/home/hpi/Pictures/MasterPicsResize_SPLIT/"
     # Walk the directory at pic_path and add the complete path of each image file to pics
     for root, dirs, files in os.walk(pic_path):
         for file in files:
