@@ -31,14 +31,14 @@ def main(pics):
     root = Tk()
     root.title("Image Viewer")
 
-    root.geometry("1000x563")
+    # root.geometry("1000x563")
     
-    # root.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
-    # root.overrideredirect(True)
-    # def end_fullscreen(event=None):
-    #     root.overrideredirect(False)
+    root.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
+    root.overrideredirect(True)
+    def end_fullscreen(event=None):
+        root.overrideredirect(False)
 
-    # root.bind("<Escape>", end_fullscreen)
+    root.bind("<Escape>", end_fullscreen)
 
 
     # Create a frame to hold the image
