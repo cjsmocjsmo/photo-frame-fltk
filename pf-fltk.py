@@ -36,7 +36,7 @@ def main(pics):
     root.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
     root.overrideredirect(True)
     root.config(cursor='none')
-    
+
     def end_fullscreen(event=None):
         root.overrideredirect(False)
 
@@ -83,7 +83,7 @@ def main(pics):
             root.after(100)
 
         # Display for a duration
-        root.after(3000)
+        root.after(15000)
 
         # Fade out
         for i in range(10, -1, -1):
