@@ -7,7 +7,7 @@ sudo apt install python3-pil.imagetk
 Fltk should already be installed on the RaspberrypiOS already.
 
 
-When running on the Pi Pico you will need to increase the swapfile size. Do this first or you will have problems.
+When running on the Pi Pico W you will need to increase the swapfile size. Do this first or you will have problems.
 
 
 Edit the file /etc/dphys-swapfile
