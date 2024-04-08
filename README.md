@@ -11,3 +11,5 @@ CONF_SWAPSIZE=100
 
 Increase it to the desire amount of new swap for example
 CONF_SWAPSIZE=1023
+
+Save and reboot.
