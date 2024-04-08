@@ -16,7 +16,7 @@ Look for the section:
 
 CONF_SWAPSIZE=100
 
-Increase it to the desire amount of new swap for example
+Increase it to the desired amount of new swap for example
 
 CONF_SWAPSIZE=1023
 
